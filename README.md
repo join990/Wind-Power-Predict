@@ -11,11 +11,15 @@ Visualization system for wind power forecasting
 
 ## Introduction
 
-The figure below shows the overall framework of the library. The main part is a **CL Trainer** class, composed of a **CL Algorithm** class and a **Model Trainer** class, which interact with each other through five **APIs** of the CL Algorithm class to implement the curriculum.
+This system is built based on actual scene requirements. Embed the wind power prediction model into the system for power prediction, and the system displays the prediction results. In addition, in order to be able to monitor the working status of the wind power plant, the system can display various data in real time. In order to facilitate user operations, a variety of interactive methods have been added, which can switch the viewing angle and monitor the status of the specified windmill at fixed points. The system architecture is shown below.
 
 <img src="./docs/img/framework.svg">
 
-An general workflow of curriculum machine learning is illustrated below. 
+The main interface of the system is as follows.
+
+<img src="./docs/img/framework.svg">
+
+In this system, Transformer is used as the prediction model of the system, which can be replaced by itself. The model architecture is shown below.
 
 <img src="./docs/img/flow.svg">
 
