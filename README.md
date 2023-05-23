@@ -30,7 +30,7 @@ An general workflow of curriculum machine learning is illustrated below.
 3. Unity == 2019.4.14
 
 ## Quick Start
-
+``` bash
 # 1. clone from the repository
 git clone https://github.com/join990/Wind-Power-Predict
 
