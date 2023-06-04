@@ -17,7 +17,7 @@ This system is built based on actual scene requirements. Embed the wind power pr
 
 The main interface of the system is as follows.
 
-<img src="./images/wind_power.mp4">
+<img src="./images/wind_power.gif">
 
 In this system, Transformer is used as the prediction model of the system, which can be replaced by itself. The model architecture is shown below.
 
